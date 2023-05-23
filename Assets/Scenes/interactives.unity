@@ -438,7 +438,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1242785590934566, guid: 5c480760a2d55cc459b0c40d15667209, type: 3}
       propertyPath: m_Name
-      value: Hinge door
+      value: Trigger door
       objectReference: {fileID: 0}
     - target: {fileID: 4311060720254708, guid: 5c480760a2d55cc459b0c40d15667209, type: 3}
       propertyPath: m_RootOrder
@@ -520,7 +520,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1242785590934566, guid: 5c480760a2d55cc459b0c40d15667209, type: 3}
       propertyPath: m_Name
-      value: Door
+      value: Hinge door
       objectReference: {fileID: 0}
     - target: {fileID: 4311060720254708, guid: 5c480760a2d55cc459b0c40d15667209, type: 3}
       propertyPath: m_RootOrder
@@ -589,10 +589,30 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 2
+  m_CollisionDetection: 0
+--- !u!95 &1828976058
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828976055}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d027a87c78522ba4284b724ab910fb48, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &2112379923
 GameObject:
   m_ObjectHideFlags: 0
